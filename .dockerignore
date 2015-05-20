@@ -1,2 +1,6 @@
 src
 .git
+build.sh
+launch.sh
+clear.sh
+README.md
