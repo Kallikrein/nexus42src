@@ -3,6 +3,9 @@ FROM node
 MAINTAINER Thomas Charlat
 
 EXPOSE 1337
+
+RUN npm install -g nodemon
+
 VOLUME /src
 WORKDIR /src
-ENTRYPOINT node index.js
+ENTRYPOINT nodemon index.js
